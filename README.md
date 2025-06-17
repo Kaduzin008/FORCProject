@@ -1,8 +1,8 @@
-# FORC – Ferramenta de Orçamento e Cálculo
+# FORC – Ferramenta de Orçamento Rápido e Cálculo
 
 ## Definição
 
-O projeto consiste no desenvolvimento de uma aplicação web utilizando HTML, CSS e JavaScript, com o objetivo de criar um gerador de orçamentos (FORC – Ferramenta de Orçamento e Cálculo) que permita a empresas ou prestadores de serviço criarem orçamentos de forma rápida, padronizada e eficiente.
+O projeto consiste no desenvolvimento de uma aplicação web utilizando HTML, CSS e JavaScript, com o objetivo de criar um gerador de orçamentos (FORC – Ferramenta de Orçamento Rápido e Cálculo) que permita a empresas ou prestadores de serviço criarem orçamentos de forma rápida, padronizada e eficiente.
 
 A ferramenta terá uma interface amigável, onde o usuário poderá inserir informações como nome do cliente, produtos ou serviços oferecidos, valores, prazos e observações, gerando automaticamente um orçamento formatado e pronto para ser enviado ao cliente.
 
