@@ -27,5 +27,7 @@ Ele representa o público-alvo principal: pequenos empreendedores e profissionai
 
 ## Link do Site
 
+Login: usuario@site.com
+Senha: usuario123
 Acesse a aplicação web hospedada no Firebase:  
 [https://forcproject-d160a.web.app](https://forcproject-d160a.web.app)
