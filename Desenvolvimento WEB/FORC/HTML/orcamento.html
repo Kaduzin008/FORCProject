@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FORC - Orçamento Rápido</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+<a href="menu.html" class="btn voltar-btn">← Voltar para o Início</a>
+
+  <h1>FORC - Orçamento Rápido</h1>
+
+  <div id="orcamento_numero"></div>
+
+  <input type="text" id="cliente" placeholder="Nome do Cliente">
+  <input type="text" id="equipamento" placeholder="Equipamento (ex: iPhone 13)">
+  <textarea id="servico" placeholder="Serviço/Defeito" rows="3"></textarea>
+  <input type="number" id="mao_obra" placeholder="Valor da Mão de Obra (R$)">
+  <input type="number" id="pecas" placeholder="Valor das Peças (R$)">
+  <input type="number" id="custo" placeholder="Custo Total (opcional)">
+  <input type="text" id="prazo" placeholder="Prazo Estimado">
+  <textarea id="obs" placeholder="Observações" rows="2"></textarea>
+  <select id="status">
+    <option value="pendente">Pendente</option>
+    <option value="aprovado">Aprovado</option>
+    <option value="recusado">Recusado</option>
+  </select>
+
+  <div class="lucro" id="lucro_total"><p></p>Lucro: R$ 0,00</div>
+  <div class="total" id="valor_total">Total: R$ 0,00 <p></p></div>
+
+  <button onclick="calcularTotal()">Calcular Total</button>
+  <button onclick="salvarOrcamento()">Salvar Orçamento</button>
+  <button onclick="duplicarUltimo()">Duplicar Último</button>
+  <button onclick="enviarWhatsApp()">Enviar via WhatsApp</button>
+  <button onclick="exportarPDF()">Exportar PDF</button>
+
+  <h2>Histórico</h2>
+  <input type="text" id="filtro" placeholder="Filtrar por nome ou status" oninput="filtrarHistorico()">
+  <div id="historico"></div>
+
+</body>
+</html>
