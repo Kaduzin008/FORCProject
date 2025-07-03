@@ -1,0 +1,24 @@
+{
+  "orcamentos": [
+    {
+      "cliente": "João Silva",
+      "equipamento": "iPhone 13",
+      "servico": "Troca de tela",
+      "mao_obra": 250,
+      "pecas": 300,
+      "prazo": "3 dias",
+      "obs": "Entregar com película",
+      "status": "aprovado"
+    },
+    {
+      "cliente": "Maria Souza",
+      "equipamento": "Notebook Dell",
+      "servico": "Troca de HD",
+      "mao_obra": 180,
+      "pecas": 220,
+      "prazo": "2 dias",
+      "obs": "",
+      "status": "pendente"
+    }
+  ]
+}
